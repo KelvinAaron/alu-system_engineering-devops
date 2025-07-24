@@ -1,1 +1,1 @@
-Directory for web debugging tasks
+Directory for web debugging
