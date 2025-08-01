@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # script that restores the default server port
 
-sudo rm /etc/nginx/sites-enabled/default
+mkdir -p /etc/nginx/sites-enabled
 sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo service nginx restart
-curl -i 0:80
+sudo service nginx start
